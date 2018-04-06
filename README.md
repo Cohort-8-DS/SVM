@@ -9,4 +9,7 @@ The Telecom_train dataset.
 - If at thet outset (pre-modelling) you feel some features are irrelevant, drop them. Best to keep them 
    all for the first run however. 
 - Split your test and train.
-- When applying your model take advantage of  cross_val_score from sklearn
+- When applying your model take advantage of  cross_val_score from sklearn.
+- From a modelling POV, the main purpose here is to compare the (best) performances of LR, LDA/QDA, SVM and 
+  see if our theoretical justifications hold. 
+  
